@@ -1,6 +1,5 @@
 ## Join Assignments
-- CREATE DATABASE users;
-- \c users;
+CREATE `users` database via postico and then run the command below from terminal.
 - psql users -f seed1.sql
 
 
@@ -20,7 +19,8 @@ Display all users and their posts ordered by age (from greatest age to lowest).
 Display each users first name along with the number of posts they have made.
 
 ## Part 2:
-For part 2 you'll need to exit out of psql and modify seed2.sql to fit the needs of the challenge.
+For part 2 run the command below in terminal:
+- psql users -f seed1.sql
 
 ### Challenge 6:
 Inside of seed2.sql create a comments table (similar to posts). The comments table will have a foreign key to both a user and a post.
