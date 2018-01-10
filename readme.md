@@ -20,7 +20,7 @@ Display each users first name along with the number of posts they have made.
 
 ## Part 2:
 For part 2 run the command below in terminal:
-- psql users -f seed1.sql
+- psql users -f seed2.sql
 
 ### Challenge 6:
 Inside of seed2.sql create a comments table (similar to posts). The comments table will have a foreign key to both a user and a post.
