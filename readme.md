@@ -23,13 +23,9 @@ For part 2 run the command below in terminal:
 - psql users -f seed2.sql
 
 ### Challenge 6:
-Inside of seed2.sql create a comments table (similar to posts). The comments table will have a foreign key to both a user and a post.
-Create some dummy comments as well.
-
-### Challenge 7:
 Display all comments and the contents of the post they were made on.
 
-### Challenge 8:
+### Challenge 7:
 Display all comments with the contents of the post and the user that made the comment.
 
 ### Challenge 8:
